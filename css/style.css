@@ -1,0 +1,330 @@
+html {
+    scroll-behavior: smooth;
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 100%;
+    height: 100%;
+  }
+  
+  html,
+  body {
+   font-family: "poppins",sans-serif !important;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+
+  
+  
+
+  /* header-section start*/
+  
+.header-section{
+  padding-top: 120px;
+  padding: 40px;
+  background: linear-gradient(
+    -45deg, #1391a5, #274685) !important;
+    color: #fff !important;
+ 
+}
+.header-section col{
+  margin-bottom: 20px;
+}
+
+.header-btn{
+  background-color:#f27c1e;
+  border: 1px solid #f27c1e;
+  border-radius: 0;
+}
+.header-btn:hover{
+text-decoration: none;
+color:#f27c1e;
+background-color: transparent;
+border-radius: 0;
+}
+
+.header-btn a:hover{
+text-decoration: none;
+}
+  
+  .header-section .container-fluid {
+   padding-top: 80px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .header-section {
+    width: 100%;
+    height: auto;
+     padding-top: 40px;
+  }
+  
+  .header-section h1 {
+     font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .header-section h3 {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 24px;
+  }
+  
+  .header-section img {
+    height: auto;
+    width: 100%;
+  }
+  
+  .header-section img {
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate;
+  }
+  
+  @-webkit-keyframes mover {
+    0% {
+      transform: translateY(0);
+    }
+  
+    100% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  @keyframes mover {
+    0% {
+      transform: translateY(0);
+    }
+  
+    100% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  /* header-section end*/
+
+
+  /* course-section start */
+  .course-section{
+    padding: 30px;
+  }
+  .course-section .row{
+   justify-content: center;
+   padding:30px;
+  }
+  
+  
+  .course-heading h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'roboto slab';
+    margin-top: 50px;
+  }
+  .course-section .container{
+    border: 1px solid rgb(190, 189, 189);
+    border-radius: 8px;
+    padding: 0px;
+    margin-bottom: 20px;
+    
+   }
+  .enroll-btn{
+   cursor: pointer;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 40px;
+   padding-right: 40px;
+   border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .enrol-div{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 3px solid rgb(230, 227, 227);
+  }
+  .course-section h5{
+    font-family: 'roboto slab';
+    color: #000;
+    text-transform: uppercase;
+  }
+  .course-name{
+    padding: 10px;
+    padding-bottom: 20px;
+    height: 40px;
+  }
+  
+  img{
+    border-radius: 8px;
+  }
+  .rating-div{
+    padding-top: 30px;
+   padding-bottom: 10px;
+  }
+ .rating-div .fas{
+   color: rgb(202, 190, 13);
+   border: none;
+ }
+ .rating-div .course-price{
+   color: green;
+ }
+    /* course-section end */
+  
+  /* section1 start*/
+  
+  .section1 {
+    background: linear-gradient(
+      -45deg, #1391a5, #274685) !important;
+    padding-top: 100px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    padding-bottom: 100px;
+    overflow: hidden;
+  }
+  
+  .section1 p {
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+    animation: slidein 3s;
+  }
+  
+  
+  .section1 h1 {
+  
+    text-align: left;
+    color: #fff;
+    font-size: 36px;
+  }
+  
+  
+  
+  /* section1 end*/
+  
+  
+  
+  
+  
+  
+  /* section2 start*/
+  .section2 {
+    padding-top: 45px;
+    padding-bottom: 40px;
+  }
+  
+  .section2 .container {
+    border: 1px solid rgb(238, 236, 236);
+    height: 210px;
+    width: 280px;
+    box-shadow: 0 15px 18px rgba(179, 179, 179, .6);
+    margin-bottom: 30px;
+  
+  }
+  
+  .section2 .container-fluid {
+    width: 280px;
+    height: 50px;
+ 
+    background: linear-gradient(
+  -45deg, #1391a5, #274685) !important;
+  
+  
+  }
+  
+  .section2 h5 {
+    margin-top: 90px;
+    font-weight: 700;
+    color: #274685;
+  
+  }
+  
+  .section2 h4 {
+    font-weight: 700;
+    color: #274685;
+    font-size: 29px;
+  }
+  
+  .section2 .icons {
+    margin-top: 22px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+    background: linear-gradient(
+      -45deg, #1391a5, #274685) !important;
+   
+    border: 5px solid white;
+  
+  }
+  
+  .section2 .fas {
+    color: #fff;
+    font-size: 28px;
+  }
+  
+  .section2 .sub {
+    transition: transform 250ms;
+  }
+  
+  .section2 .sub:hover {
+    transform: translateY(-10px);
+  }
+  
+  
+  
+  /* section2 end*/
+  
+   
+  
+  /* brain start*/
+  .brain{
+    background: linear-gradient(
+      -45deg, #1391a5, #274685) !important;
+  }
+  .brain .container{
+    justify-content: left;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: 37px;
+    color: rgb(248, 237, 237);
+  }
+  .brain .btn{
+    color: #fff;
+    background:linear-gradient(
+      220deg,#f27c1e 0,#dd4c23 79%);
+    cursor: pointer;
+    padding-left: 20px;
+   padding-right: 20px;
+  }
+  .brain a{
+    color: #fff;
+    text-decoration: none;
+  }
+  /*brain end */
+  
+  
+   .animate__animated{
+    animation-iteration-count: 1;
+  }
+  
+  
+  /* no copy end*/
+  /*seal start*/
+  .seal{
+    color: #274685;
+   
+    box-shadow: 2px 6px 14px 3px rgb(175, 171, 171);
+    text-align: center;
+    
+  }
+  /*seal end*/
+  
+
+  
+  

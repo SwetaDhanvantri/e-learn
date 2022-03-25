@@ -1,0 +1,206 @@
+/*Footer start*/
+  
+  
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+  
+  
+  
+footer {
+  width: 100%;
+  background-color: white;
+  bottom: 0px;
+  text-align: center;
+  justify-content: center !important;
+}
+footer .row{
+  justify-content: center !important;
+ 
+}
+footer div {
+  background-color: #fff;
+  margin: 5px 0px 0px 0px;
+  padding: 0px;
+  color: #274685;
+ 
+  
+  
+}
+
+.fab {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.page-footer {
+ margin-top: 170px;
+  justify-content: center !important;
+}
+.page-footer .row{
+  padding: 40px;
+}
+.page-footer .container{
+  text-align: left;
+  justify-content: center !important;
+  margin-bottom: 30px;
+}
+
+
+.page-footer .icon .fas {
+  font-size: 30px;
+ }
+
+.page-footer p {
+  font-size: 16px;
+  justify-content: center;
+  text-align: left;
+  width: 220PX;
+  color: #e7dfdf;
+  
+}
+.page-footer h5{
+  color: #fff;
+   justify-content: center;
+   text-align: left;
+   font-size: 20px !important;
+   font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-bottom: 20px;
+  
+  }
+ 
+  
+
+ 
+.page-footer .iconify {
+  height: 20px;
+  width: 40px;
+  background: url('https://api.iconify.design/logos/google-gmail.svg') no-repeat center center / contain;
+  content: url('https://api.iconify.design/logos/google-gmail.svg');
+}
+
+/* social icons start*/
+.social{
+ 
+  padding: 5px;
+
+  
+  margin-bottom: 10px;
+}
+
+
+.wrapper{
+background-color:#fff !important;
+border-radius: 30px;
+border: 1px solid #274685;
+margin-top: -85px;
+}
+
+
+.wrapper .icon {
+  border-radius: 50%;
+  text-align: center;
+  color: black;
+  padding: 14px;
+  padding-left: 17px;
+  margin: 10px;
+  width: 50px !important;
+  height: 50px;
+  font-size: 24px;
+ 
+  
+  cursor: pointer;
+  transition: transform 250ms;
+}
+.wrapper .icon:hover {
+  transform: translateY(-10px);
+}
+
+.wrapper .twitter {
+  background-color: #1da1f2;
+}
+
+.wrapper .linkedin {
+  background-color: #007bb6;
+ }
+
+.wrapper .facebook {
+  background-color: #3b5998;
+  padding-left: 19px;
+}
+
+.wrapper .instagram {
+ background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+  }
+
+.wrapper .youtube {
+  background-color: #ff0000;  
+}
+
+.wrapper .fab {
+  color: white;
+}
+
+
+
+/* social icons end*/
+/*lower footer*/
+.subs img{
+  height: auto;
+  width: 200px !important;
+}
+.subs .btn{
+  background-color:#f09433;
+ 
+  
+}
+.subs .form-control{
+  
+  padding: 0px;
+}
+.subs .input-group{
+ 
+   background-color: #fff;
+}
+.input-group{
+  padding: 5px;
+  border-radius: 10px;
+}
+.form-control{
+  border: none;
+  border-radius: 10px;
+}
+
+.lower-footer{
+  background: linear-gradient(
+    -45deg, #1391a5, #274685) !important;
+}
+.lower-footer div{
+  background-color: inherit;
+}
+
+.cs img{
+  height: 30px;
+  width: 30px;
+}
+.lower-footer ul, li, a{
+  color:#e7dfdf !important;
+  line-height: 28px;
+  font-size: 16px;
+}
+.lower-footer .cs{
+ color: #fff !important;
+  font-size: 16px !important;
+  padding: 5px;
+}
+
+/*lower footer end*/
+
+
+  
+  /* Subscribe start */
+  
+  
+  

@@ -1,0 +1,399 @@
+  
+html {
+  scroll-behavior: smooth;
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 100%;
+  height: 100%;
+}
+
+html,
+body {
+  font-family: 'Open Sans',sans-serif !important;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+.course-comp {
+    color: #fff;
+    margin-top: 150px;
+    
+  padding-top: 70px;
+    overflow: hidden;
+    width: 100%;
+    background: linear-gradient(
+        -45deg, #1391a5, #274685) !important;
+  }
+  .cont-first{
+    padding: 0px 70px 0px 70px;
+  }
+ .course-comp h4{
+     color: #fff;
+     font-weight: 600;
+     font-size: 30px;
+ }
+ .course-comp p{
+     max-width: 600px;
+     padding-top: 12px;
+     font-size: 16px;
+ }
+ .course-comp .fas{
+    color: #fff
+}
+  .course-comp img{
+      padding: 10px;
+      background-color: #fff;
+  }
+
+
+  /* learn section start*/
+
+  
+  .comp-learn{
+  
+    border: 1px solid #d1d7dc;
+    padding: 30px 50px 0px 50px ;
+  }
+  .comp-learn h3{
+    font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 600;
+    line-height: 1.4;
+    font-size: 1.6rem;
+    color: #1c1d1f;
+    padding: 20px;
+  }
+  .comp-learn ul {
+    list-style: none;
+  }
+  .comp-learn li:before {
+    color: rgb(8, 105, 8);
+    content: "\f00c"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+   margin-right: 2px;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
+  }
+  .comp-learn .div-off{
+   
+    margin-top: 20px;
+  }
+  .learn .btn-cart{
+    padding-left:70px;
+    padding-right: 70px;
+    color: #fff;
+    border-radius: 0px;
+    display: inline-block;
+    background-color: #e6683c  ;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    
+    Font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif !important;
+}
+
+.learn .btn-buy{
+  padding-left:85px;
+  padding-right: 85px;
+  color: #fff;
+  border-radius: 0px;
+  display: inline-block;
+  background-color: #3c80e6  ;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  
+  Font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif !important;
+}
+  .learn .btn-div{
+    padding-top: 20px;
+    
+  }
+  .current{
+    margin-top: 20px;
+    font-size: large;
+    font-size: 32px;
+   
+  }
+  .original{
+    text-decoration: line-through;
+    color: rgb(100, 100, 100);
+    font-size: 16px;
+  }
+  
+   .off{
+    font-size: 16px;
+    padding-left: 10px;
+
+  }
+ /* learn section end*/
+
+/*Footer start*/
+
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+
+
+footer {
+  width: 100%;
+  background-color: white;
+  bottom: 0px;
+
+}
+
+footer div {
+  background-color: #fff;
+  margin: 5px 0px 0px 0px;
+  padding: 0px;
+  color: #274685;
+  text-align: center;
+  
+}
+
+.fab {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.page-footer1 {
+ margin-top: 170px;
+ 
+  
+}
+
+.page-footer1 h4{
+  font-size: 18px;
+  font-weight: 500;
+  text-align: right;
+  color: #000;
+  padding-right: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.page-footer1 .lower-foot{
+  background: linear-gradient(
+    -45deg, #1391a5, #274685) !important;
+}
+
+
+
+
+.page-footer1 .icon .fas {
+  font-size: 30px;
+ }
+
+.page-footer1 p {
+  font-size: 16px;
+  text-align: left;
+  width: 220PX;
+  color: #e7dfdf;
+  
+}
+.page-footer1 h5{
+  color: #fff;
+   justify-content: center;
+   text-align: left;
+   font-size: 20px !important;
+   font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-bottom: 20px;
+  
+  }
+ 
+  
+
+ 
+.page-footer1 .iconify {
+  height: 20px;
+  width: 40px;
+  background: url('https://api.iconify.design/logos/google-gmail.svg') no-repeat center center / contain;
+  content: url('https://api.iconify.design/logos/google-gmail.svg');
+}
+
+/* social icons start*/
+.wrapper{
+background-color:inherit;
+}
+
+.wrapper .icon {
+  color: black;
+  background-color: #2083f8;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+
+  cursor: pointer;
+  transition: transform 250ms;
+}
+.wrapper .icon:hover {
+  transform: translateY(-10px);
+}
+
+.wrapper .twitter {
+  background-color: #1da1f2;
+  font-size: 20px;
+}
+
+.wrapper .linkedin {
+  background-color: #007bb6;
+  font-size: 20px;
+}
+
+.wrapper .facebook {
+  background-color: #3b5998;
+  font-size: 20px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.wrapper .instagram {
+ 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+  font-size: 20px;
+}
+
+.wrapper .youtube {
+  background-color: #ff0000;
+  font-size: 20px;
+}
+
+.wrapper .fab {
+  color: white;
+}
+
+
+
+/* social icons end*/
+/*lower footer*/
+.lower{
+  background: linear-gradient(
+    -45deg, #1391a5, #274685) !important;
+}
+.lower div{
+  background-color: inherit;
+}
+
+.lower img{
+  height: 30px;
+  width: 30px;
+}
+.lower ul{
+  color: #ffffff;
+  line-height: 28px;
+  font-size: 16px;
+}
+.lower li{
+  color: #ffffff;
+  line-height: 28px;
+  font-size: 16px;
+}
+.lower a{
+  color: #ffffff;
+  line-height: 28px;
+  font-size: 16px;
+}
+.lower .cs{
+  color:#f2f2f2;
+  font-size: 16px !important;
+  padding: 5px;
+}
+
+/*lower footer end*/
+/* Subscribe start*/
+.subscribe{
+  background: linear-gradient(
+    -45deg, #1391a5, #274685) !important;
+}
+.subscribe .container{
+  background: linear-gradient(
+    -45deg, #1391a5, #274685) !important;
+    box-shadow: none;
+    border: none;
+    width: 100%;
+}
+.subscribe h3{
+  font-size: 26px;
+  font-weight: 600;
+}
+.subscribe input[type=text] {
+    
+  padding: 12px 20px;
+  
+  box-sizing: border-box;
+  border-radius: 10px;
+  outline: none;
+  width: 80%;
+  height:22%;
+  border:1px solid #7c7b7b;
+}
+.subscribe ::placeholder { 
+  color: #000;
+  opacity: 1;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+
+
+}
+.subscribe button{
+height: 45px;
+padding: 0;
+margin: 0;
+
+}
+.subscribe .btn{
+
+width: 14%;
+margin-left: 5px;
+font-size: 20px;
+
+}
+.subscribe .fa{
+  margin-left: 5px;
+}
+
+/*subscribe end*/
+/* footer end*/
+
+
+/* no copy start*/
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+/* no copy end*/
+/*seal start*/
+.seal{
+  color: #274685;
+ 
+  box-shadow: 2px 6px 14px 3px rgb(175, 171, 171);
+  text-align: center;
+  
+}
+/*seal end*/

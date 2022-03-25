@@ -1,0 +1,66 @@
+html,
+body {
+  font-family: 'Open Sans',sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+.contact-section{
+  background: linear-gradient(
+    -45deg, #1391a5, #274685) !important;
+    color: #fff !important;
+    padding-top: 150px;
+  
+}
+
+
+.contact-heading{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.contact-form{
+ padding-top: 10px;
+margin-bottom: 30px;
+}
+.contact-quote{
+  text-align: left;
+  font-size: 32px;
+  padding-bottom: 10px;
+}
+.form-group input {
+  border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid rgb(141, 137, 137) !important;
+}
+.contact-submit{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  background-color: #f09433;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+/* no copy*/
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome and Opera */
+}

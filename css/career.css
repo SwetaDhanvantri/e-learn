@@ -1,0 +1,323 @@
+html {
+  scroll-behavior: smooth;
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 100%;
+  height: 100%;
+}
+html,
+body {
+  font-family: 'Open Sans',sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*earn start*/
+ .earn .container-fluid {
+  width: 100%;
+  height: auto;
+    padding-top: 150px;
+    background: linear-gradient(
+      -45deg, #1391a5, #274685) !important;
+   
+}
+
+
+
+.earn h1 {
+    font-weight: 700;
+    color: white;
+    font-size: 48px;
+    margin-top: 50px;
+    padding-top: 40px;
+  }
+
+
+.earn p {
+    font-size: 22px;
+    text-align: center;
+    color: rgb(229, 226, 226);
+    margin-top: 20px;
+
+}
+
+
+
+
+
+/*earn end*/
+/* middle section start*/
+.middle .container{
+  padding: 30px;
+  margin-top: 60px;
+
+}
+.middle p{
+  font-size: 16px;
+  padding: 30px;
+  font-family: 'Open Sans',sans-serif;
+}
+.job h3{
+  color:#274685;
+  padding-bottom: 30px;
+}
+/* middle section end */
+
+/* upload start*/
+#upload {
+    margin-top: 40px;
+    margin-bottom: 140px;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(
+      -45deg, #1391a5, #274685) !important;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    margin: 50px 0
+}
+
+.file-drop-area {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 450px;
+    max-width: 100%;
+    padding: 25px;
+    border: 1px dashed rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+    transition: 0.2s;
+    color: white;
+    font-size: 16px;
+}
+
+.choose-file-button {
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    padding: 8px 15px;
+    margin-right: 10px;
+    font-size: 16px;
+    text-transform: uppercase
+}
+
+.file-message {
+    font-size: small;
+    font-weight: 300;
+    line-height: 1.4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.file-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0
+}
+
+/*upload end*/
+
+/* footer---*/
+
+/*Footer start*/
+
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+
+
+footer {
+  width: 100%;
+  background-color: white;
+  bottom: 0px;
+
+}
+
+footer div {
+  background-color: #fff;
+  margin: 5px 0px 0px 0px;
+  padding: 0px;
+  color: #274685;
+  text-align: center;
+  
+}
+
+.fab {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.page-footer1 {
+ margin-top: 170px;
+ 
+  
+}
+
+.page-footer1 h4{
+  font-size: 18px;
+  font-weight: 500;
+  text-align: right;
+  color: #000;
+  padding-right: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.page-footer1 .lower-foot{
+  background: linear-gradient(
+    -45deg, #1391a5, #274685) !important;
+}
+
+
+
+
+.page-footer1 .icon .fas {
+  font-size: 30px;
+ }
+
+.page-footer1 p {
+  font-size: 16px;
+  text-align: left;
+  width: 220PX;
+  color: #e7dfdf;
+  
+}
+.page-footer1 h5{
+  color: #fff;
+   justify-content: center;
+   text-align: left;
+   font-size: 20px !important;
+   font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-bottom: 20px;
+  
+  }
+ 
+  
+
+ 
+.page-footer1 .iconify {
+  height: 20px;
+  width: 40px;
+  background: url('https://api.iconify.design/logos/google-gmail.svg') no-repeat center center / contain;
+  content: url('https://api.iconify.design/logos/google-gmail.svg');
+}
+
+/* social icons start*/
+.wrapper{
+background-color:inherit;
+}
+
+.wrapper .icon {
+  color: black;
+  background-color: #2083f8;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+
+  cursor: pointer;
+  transition: transform 250ms;
+}
+.wrapper .icon:hover {
+  transform: translateY(-10px);
+}
+
+.wrapper .twitter {
+  background-color: #1da1f2;
+  font-size: 20px;
+}
+
+.wrapper .linkedin {
+  background-color: #007bb6;
+  font-size: 20px;
+}
+
+.wrapper .facebook {
+  background-color: #3b5998;
+  font-size: 20px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.wrapper .instagram {
+ 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+  font-size: 20px;
+}
+
+.wrapper .youtube {
+  background-color: #ff0000;
+  font-size: 20px;
+}
+
+.wrapper .fab {
+  color: white;
+}
+
+
+
+/* social icons end*/
+/*lower footer*/
+.lower{
+  background: linear-gradient(
+    -45deg, #1391a5, #274685) !important;
+}
+.lower div{
+  background-color: inherit;
+}
+
+.lower img{
+  height: 30px;
+  width: 30px;
+}
+.lower ul{
+  color: #ffffff;
+  line-height: 28px;
+  font-size: 16px;
+}
+.lower li{
+  color: #ffffff;
+  line-height: 28px;
+  font-size: 16px;
+}
+.lower a{
+  color: #ffffff;
+  line-height: 28px;
+  font-size: 16px;
+}
+.lower .cs{
+  color:#f2f2f2;
+  font-size: 16px !important;
+  padding: 5px;
+}
+
+/*lower footer end*/
+/* no copy*/
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently supported by Chrome and Opera */
+}

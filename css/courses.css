@@ -1,0 +1,70 @@
+
+  /* course-section start */
+  .course-section{
+    padding: 30px;
+    padding-top: 100px;
+  }
+  .course-section .row{
+   justify-content: center;
+   padding:30px;
+  }
+  
+  
+  .course-heading h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'roboto slab';
+    margin-top: 50px;
+  }
+  .course-section .container{
+    border: 1px solid rgb(190, 189, 189);
+    border-radius: 8px;
+    padding: 0px;
+    margin-bottom: 20px;
+    
+   }
+  .enroll-btn{
+   cursor: pointer;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 40px;
+   padding-right: 40px;
+   border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .enrol-div{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgb(230, 227, 227);
+    text-transform: uppercase;
+  }
+  .course-section h5{
+    font-family: 'roboto slab';
+    color: #000;
+    text-transform: uppercase;
+  }
+  .course-name{
+    padding: 10px;
+    padding-bottom: 20px;
+    height: 40px;
+  }
+  
+  img{
+    border-radius: 8px;
+  }
+  .rating-div{
+    padding-top: 30px;
+   padding-bottom: 10px;
+  }
+ .rating-div .fas{
+   color: rgb(202, 190, 13);
+   border: none;
+ }
+ .rating-div .course-price{
+   color: green;
+ }
+    /* course-section end */
